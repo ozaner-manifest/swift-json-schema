@@ -26,6 +26,10 @@ let package = Package(
       name: "JSONSchemaClient",
       targets: ["JSONSchemaClient"]
     ),
+    .plugin(
+      name: "JSONSchemaMacro",
+      targets: ["JSONSchemaMacro"]
+    ),
   ],
   dependencies: [
     .package(url: "https://github.com/swiftlang/swift-docc-plugin", from: "1.0.0"),
